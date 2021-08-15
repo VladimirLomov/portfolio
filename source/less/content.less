@@ -1,0 +1,81 @@
+
+// начальная загрузка
+
+body {
+    width: 320px;
+    margin: auto;
+    padding:auto ;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "SuisseIntl", "SimHei" , sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: white;
+   }
+
+.logo-desktop {
+    display: none;
+}
+
+.footer {
+    display: none;
+}
+
+
+@media (min-width: @desktop-width){
+    
+    body {
+    width: 540px;
+        
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "SuisseIntl", "SimHei" , sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #F2F3F6;
+     
+}
+    
+    .logo-desktop {
+        display: block;
+        position: absolute;
+        width: 158px;
+        height: 52px;
+        left: 24px;
+        top: 32px;
+    
+      
+}
+    
+    .page-main {
+        display: block;
+        width: 540px;
+        height: 954px;
+        margin-top:80px;
+        background-color: white;
+        margin-left: auto;
+        position: relative;
+        
+        
+    }
+    
+    .footer {
+          display: block;
+        position: absolute;
+        left: 24px;
+        
+      
+    }
+    
+     .footer__questions {
+        color: #808FC0;
+    }
+    
+    .footer__telegramm {
+       color: #462DC8;
+        text-decoration: none;
+    }
+    
+}
+
+
